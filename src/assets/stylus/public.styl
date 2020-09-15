@@ -1,0 +1,126 @@
+@import "./variable.styl";
+
+// flexBox
+.flex
+  display flex
+  &.column
+    flex-direction column
+  &.shaft-center
+    justify-content center 
+  &.shaft-start
+    justify-content flex-start
+  &.shaft-end
+    justify-content flex-end
+  &.space-around
+    justify-content space-around
+  &.space-between
+    justify-content space-between
+  &.space-center
+    justify-content center
+  &.cross-center
+    align-items center 
+  &.cross-start
+    align-items flex-start
+  &.cross-end
+    align-items flex-end
+  &.center
+    justify-content center
+    align-items center
+.flex-1
+  flex 1
+.no-shrink
+  flex-shrink 0
+
+// display
+.block
+  display block
+.inline-block
+  display inline-block
+.inline
+  display inline
+.none
+  display none
+
+// backgroundColor
+.back-lord
+  background $back-lord
+.back-sio
+  background $back-sio
+.back-blockTranslucent
+  background $back-blockTranslucent
+.back-highlight
+  background $back-highlight
+// color
+.color-lord
+  color $color-lord
+.color-sio
+  color $color-sio
+.color-highlight
+  color $color-highlight
+.color-whiteTranslucent
+  color $color-whiteTranslucent
+.color-whiteTranslucent-
+  color $color-whiteTranslucent-
+.color-white
+  color $color-white
+.color-favorite
+  color $color-favorite
+// size
+.size-lord
+  font-size $size-lord
+.size-sio
+  font-size $size-sio
+.size-max
+  font-size $size-max
+.size-22
+  font-size 22px
+// border-radius
+.radius-round
+  border-radius 50%
+.radius-8
+  border-radius 8px
+
+// text
+.text-center
+  text-align center
+.text-left 
+  text-align left
+.text-right
+  text-align right
+
+// position
+.relative 
+  position relative
+
+// 利用 for 生成外边距
+for n in range(1, 40)
+  .margin-top-{n}
+    margin-top (n)px
+
+  .margin-right-{n}
+    margin-right (n)px
+
+  .margin-left-{n}
+    margin-left (n)px
+
+  .margin-bottom-{n}
+    margin-bottom (n)px
+
+  .padding-bottom-{n}
+    padding-bottom (n)px
+
+  .padding-right-{n}
+    padding-right (n)px
+  
+  .padding-left-{n}
+    padding-left (n)px
+
+  .padding-top-{n}
+    padding-top (n)px
+
+// tool class
+
+.text-overflow
+  text-overflow ellipsis
+  white-space nowrap
+  overflow hidden
