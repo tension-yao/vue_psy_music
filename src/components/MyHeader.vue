@@ -10,7 +10,7 @@
 export default {
   data () {
     return {
-      app_name: 'Psy Music'
+      app_name: 'Tension Music'
     }
   }
 }
