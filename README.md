@@ -1,4 +1,4 @@
-# vue.psy_music
+# vue_tension_music
 
 ## Project setup
 ```

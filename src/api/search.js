@@ -6,8 +6,7 @@ import { params } from '@/assets/js/api.public'
  * 热门搜索
  */
 export async function getHotSearch () {
-  // const url = '/api/splcloud/fcgi-bin/gethotkey.fcg'
-  const url = 'http://123.56.145.222/psyMusicAPI/hotSearch'
+  const url = 'http://www.privatewebs.top/psyMusicAPI/hotSearch'
 
   const data = Object.assign({}, params, {
     uin: 0,
@@ -25,8 +24,7 @@ export async function getHotSearch () {
  * 搜索歌曲
  */
 export async function getSearchResult (query, p, catZhida) {
-  // const url = '/api/soso/fcgi-bin/search_for_qq_cp'
-  const url = 'http://123.56.145.222/psyMusicAPI/searchResult'
+  const url = 'http://www.privatewebs.top/psyMusicAPI/searchResult'
 
   const data = Object.assign({}, params, {
     // 搜索的内容

@@ -5,8 +5,7 @@ import { params } from '@/assets/js/api.public'
  * 歌曲播放地址
  */
 export async function getSongURL (songmidArr) {
-  // const url = '/uapi/cgi-bin/musicu.fcg'
-  const url = 'http://123.56.145.222/psyMusicAPI/songURL'
+  const url = 'http://www.privatewebs.top/psyMusicAPI/songURL'
 
   const data = Object.assign({}, params, {
     g_tk: 5381,
@@ -44,8 +43,7 @@ export async function getSongURL (songmidArr) {
  * 歌词接口
  */
 export async function getLyric (songid) {
-  // const url = '/api/lyric/fcgi-bin/fcg_query_lyric_yqq.fcg'
-  const url = 'http://123.56.145.222/psyMusicAPI/lyric'
+  const url = 'http://www.privatewebs.top/psyMusicAPI/lyric'
 
   const data = Object.assign({}, params, {
     /**

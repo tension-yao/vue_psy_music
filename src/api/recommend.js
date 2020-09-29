@@ -22,8 +22,7 @@ export async function getRecommendSlider () {
  * 歌单列表
  */
 export async function getRecommendList () {
-  // const url = '/api/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg'
-  const url = 'http://123.56.145.222/psyMusicAPI/recommendList'
+  const url = 'http://www.privatewebs.top/psyMusicAPI/recommendList'
 
   const data = Object.assign({}, params, {
     platform: 'yqq',
@@ -47,8 +46,7 @@ export async function getRecommendList () {
  * 歌单列表详情
  */
 export async function getSongList (dissid) {
-  // const url = '/api/qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg'
-  const url = 'http://123.56.145.222/psyMusicAPI/songList'
+  const url = 'http://www.privatewebs.top/psyMusicAPI/songList'
 
   const data = Object.assign({}, params, {
     /**
