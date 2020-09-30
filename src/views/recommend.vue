@@ -53,7 +53,9 @@ export default {
     return {
       sliderData: [],
       listData: [],
-      scrollParams: {}
+      scrollParams: {
+        click: true
+      }
     }
   },
   methods: {
