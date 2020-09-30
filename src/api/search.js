@@ -6,7 +6,7 @@ import { params } from '@/assets/js/api.public'
  * 热门搜索
  */
 export async function getHotSearch () {
-  const url = 'http://www.privatewebs.top/psyMusicAPI/hotSearch'
+  const url = 'http://www.privatewebs.top/vue_tension_music_api/hotSearch'
 
   const data = Object.assign({}, params, {
     uin: 0,
@@ -24,7 +24,7 @@ export async function getHotSearch () {
  * 搜索歌曲
  */
 export async function getSearchResult (query, p, catZhida) {
-  const url = 'http://www.privatewebs.top/psyMusicAPI/searchResult'
+  const url = 'http://www.privatewebs.top/vue_tension_music_api/searchResult'
 
   const data = Object.assign({}, params, {
     // 搜索的内容

@@ -22,7 +22,7 @@ export async function getRecommendSlider () {
  * 歌单列表
  */
 export async function getRecommendList () {
-  const url = 'http://www.privatewebs.top/psyMusicAPI/recommendList'
+  const url = 'http://www.privatewebs.top/vue_tension_music_api/recommendList'
 
   const data = Object.assign({}, params, {
     platform: 'yqq',

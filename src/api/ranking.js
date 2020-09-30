@@ -6,7 +6,7 @@ import { params } from '@/assets/js/api.public'
  */
 
 export async function getTopList () {
-  const url = 'http://www.privatewebs.top/psyMusicAPI/topList'
+  const url = 'http://www.privatewebs.top/vue_tension_music_api/topList'
 
   const data = Object.assign({}, params, {
     uin: 0,
@@ -21,7 +21,7 @@ export async function getTopList () {
 }
 
 export async function getTopListDetail (id) {
-  const url = 'http://www.privatewebs.top/psyMusicAPI/topListDetail'
+  const url = 'http://www.privatewebs.top/vue_tension_music_api/topListDetail'
 
   const data = Object.assign({}, params, {
     topid: id,

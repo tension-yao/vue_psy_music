@@ -5,7 +5,7 @@ import { params } from '@/assets/js/api.public'
  * 歌曲播放地址
  */
 export async function getSongURL (songmidArr) {
-  const url = 'http://www.privatewebs.top/psyMusicAPI/songURL'
+  const url = 'http://www.privatewebs.top/vue_tension_music_api/songURL'
 
   const data = Object.assign({}, params, {
     g_tk: 5381,
@@ -43,7 +43,7 @@ export async function getSongURL (songmidArr) {
  * 歌词接口
  */
 export async function getLyric (songid) {
-  const url = 'http://www.privatewebs.top/psyMusicAPI/lyric'
+  const url = 'http://www.privatewebs.top/vue_tension_music_api/lyric'
 
   const data = Object.assign({}, params, {
     /**
